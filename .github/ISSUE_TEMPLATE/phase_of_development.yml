@@ -1,4 +1,4 @@
-name: Bug Report
+name: Phase of Development
 description: A report of an error in a recent systemd version
 labels: ["bug 🐛"]
 
@@ -7,6 +7,17 @@ body:
     attributes:
       value: Thanks for taking the time to fill out this bug report!
 
+  - type: dropdown
+    id: Phase-of-development
+    attributes:
+      label: Phase of development
+      multiple: false
+      options:
+        - 'Phase-1'
+        - 'Phase-2'
+        - 'Phase-3'
+        - 'Unknown'
+        
   - type: input
     id: version
     attributes:

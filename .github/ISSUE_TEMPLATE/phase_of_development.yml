@@ -17,6 +17,14 @@ body:
         - 'Phase-2'
         - 'Phase-3'
         
+  - type: checkboxes
+    id: Platform-work-question
+    attributes:
+      label: Platform work
+      description: "Is this platform work that could be shared across multiple themes?"
+      options:
+        - label: Check box if YES
+        
   - type: input
     id: version
     attributes:

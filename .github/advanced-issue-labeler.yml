@@ -198,9 +198,8 @@ policy:
 
           - name: 'RFE 🎁'
             keys: ['Feature Request']
-
 - template: ['phase_of_development.yml']
-    section:
+   - section:
       - id: [Phase-of-development]
         block-list: ['Phase-1', 'Phase-3']
         label:

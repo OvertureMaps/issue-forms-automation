@@ -15,7 +15,7 @@ jobs:
 
     strategy:
       matrix:
-        template: [ bug.yml, feature.yml, animals.yml ]
+        template: [ bug.yml, feature.yml, animals.yml, phase_of_development.yml ]
 
     steps:
       - uses: actions/checkout@v3

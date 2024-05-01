@@ -205,7 +205,7 @@ policy:
         block-list: ['Phase-1', 'Phase-3']
         label:
           - name: 'Phase-1'
-            keys: [''Phase-1']
+            keys: ['Phase-1']
 
           - name: 'Phase-2'
             keys: ['Phase-2']

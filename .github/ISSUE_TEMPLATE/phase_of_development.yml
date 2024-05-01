@@ -2,7 +2,7 @@ name: Phase-of-development
 description: Phase development submission
 title: "[Phase-Dev]: "
 labels: ["Phase-Dev"]
-projects: ["Master"]
+projects: ["Master", "Overture Pipeline Migration"]
 assignees: 
   - seanmcilroy29
 

@@ -14,7 +14,23 @@ body:
       description: Write your ideas ...
     validations:
       required: false
-  
+ 
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: Please choose the priority.
+      multiple: false
+      options:
+        - 'I do not know'
+        - 'Low'
+        - 'Medium'
+        - 'High'
+        - 'Urgent'
+        - 'Other'
+    validations:
+      required: false
+      
   - type: dropdown
     id: Phase-of-development
     attributes:

@@ -1,8 +1,8 @@
 name: Your favorite animals
 description: Pick animals you love
 title: "[Animals]"
-labels: ["animals 🫶"]
-projects: ["Master"]
+labels: ["animals"]
+projects: ["Master", "Overture Pipeline Migration"]
 assignees: seanmcilroy29
 
 body:
@@ -14,7 +14,7 @@ body:
     id: animals
     attributes:
       label: Animals
-      description: Please pick all animals you like.
+      description: Please pick all the animals you like.
       multiple: true
       options:
         - 'I do not like animals'
